@@ -1,0 +1,165 @@
+*{
+    padding: 0px; 
+    margin: 0px auto;
+}
+
+.wrapper{
+    width: 960px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+header{
+    background-color: #294e79;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: white;
+}
+
+header h5{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: white;
+}
+
+header #frm1 {
+    top: 10px;
+    right: 20px;
+    position: absolute;
+}
+nav {
+    position: absolute;
+    bottom: 3px;
+    right: 15px;
+}
+.menu li {
+    background-color: #78afee;
+    display: inline-table;
+    height: 30px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.menu li:hover {
+    background-color: white;
+}
+.menu li:hover>a {
+    font-style: italic;
+    color: tomato;
+}
+.content {
+    height: 450px;
+    width: 960px;
+    background-color: white;
+}
+footer{
+    background-color: #294e79;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+footer p{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: smaller;
+}
+section{
+    width: 65%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+.section1{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+.section1 p{
+    color:rgb(221, 67, 67);
+    text-shadow:#49b635 4px 5px 4px;
+    position:relative;
+    left:10px;
+    top: 10px;
+    text-align: justify;
+    margin-right:  50px;
+}
+.section2{
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
+
+aside{
+    width: 30%;
+    height:350px;
+    float:right;
+    background-color:rgb(233, 224, 224);
+}
+aside a{
+    margin-left: 160px;
+    text-decoration: none;
+    color:#1e528e;
+    text-align: justify;
+}
+
+h3{
+    color: rgb(21, 21, 21);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:  1em;
+    margin-right: 1em;
+}
+hr{
+    display:grid;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em ;
+    margin-right:0.5em;
+    border-style: dashed;
+}
+p{
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:  1em;
+    margin-right: 1em;
+}
+address{
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:  1em;
+    margin-right: 1em;
+    text-align: justify;
+}
+input[type="text"],
+select {
+    width: 90%;
+    padding: 4px;
+    text-align: justify;
+    border: 1px solid #7e7777;
+    border-radius: 4px;
+    
+}
+form{
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:  1em;
+    margin-right: 1em;
+    text-align: justify;
+}

@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+   }
+    .wrapper{
+        background-color: whitesmoke;
+        width: 960px;
+        border: 1px solid black;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        background-color: saddlebrown;
+    }
+    header h1{
+        color: olive;
+        font-size: 30px;
+        margin-left: 40px;
+        text-shadow: -5px -5px 5px white;
+        padding: 30px;
+    }
+    nav ul li a:hover{
+    color:rgb(17, 203, 178);
+   }
+   nav{
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    border: 1px solid black;
+   }
+   nav ul li{
+    display:inline-block;
+    width: 100px;
+    margin-left: 40px;
+   }
+   nav ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-size:20px;
+    color: brown;
+    }
+    .header-bottom{
+    height: 100px;
+    background-repeat: repeat-x;
+    }
+    .content{
+    display:flex;
+   
+    }
+    .content section{
+    width: 70%;
+    border-right: 1px solid gray;
+    }
+    .content aside{
+    width: 30%;
+    }
+     .content section h2{
+    color:rgb(180, 115, 31);
+    margin-left: -20px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .content section p{
+    padding-bottom: 40px;
+    color: rgb(136, 136, 31);
+    font-style:italic;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    section{
+    padding:30px;
+    }
+    form{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    form input{
+        border: 0;
+        border-bottom: 1px solid gray;
+        background-color: transparent;
+        font-size: 16px;
+        padding: 10px 0;
+        width: 100%;
+    }
+    form button{
+        margin: 0;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 2px ;
+        background-color: olive;
+        color:aliceblue;
+    }
+    aside{
+        padding: 20px;
+    }
+    aside h2{
+        color:rgb(185, 35, 35);
+        font-size: 25px;;
+    }
+    aside .aside1{
+        padding: 20px;
+        background-color: antiquewhite;
+        border-radius:30px 30px 0 0;
+    } 
+    aside .aside1 ul{
+        padding-left:40px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 20px;
+        list-style: square;
+        color:rgb(113, 16, 16);
+
+    }
+    aside .aside1 li a{
+        text-decoration: none;
+        color:rgb(113, 16, 16);
+
+    }
+    aside .info{
+        padding: 30px;
+    }
+    aside .info img{
+        padding: 5px;
+        border: 1px solid gray;
+        margin-top:  5px;
+    }
+    aside .info p{
+        font-size: 20px;
+        text-align: justify;
+
+    }
+    footer{
+        background-image: url(../image/footer.png);
+        width: 100%;
+        height: 40px;
+       
+    }
+    footer p{
+        text-align: center;
+        font-size: 18px;
+        padding-top: 15px;
+    }

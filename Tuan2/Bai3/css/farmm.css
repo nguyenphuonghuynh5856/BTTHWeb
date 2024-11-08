@@ -1,0 +1,65 @@
+
+   
+
+ body {
+    background-image: url(../image/background.jpg);
+    color: white;
+    }
+    .menu {
+    width: 100%;
+    }
+    .menu ul {
+    background-color: white;
+    width: 11%;
+    height: 170px;
+    float: left;
+    border-style: outset;
+    text-decoration: none;
+    }
+    .menu ul li {
+    list-style-type: none;
+    color: blueviolet;
+    margin-bottom: 18px;
+    text-decoration: none;
+    }
+    .menu li:hover{
+    background-color: rgb(72, 234, 18);
+    }
+    ul li a {
+    text-decoration: none;
+    }
+    .anh {
+    display: flex;
+    }
+    .content {
+        margin: 10px 200px;
+        border-left: 2px solid rgb(20, 198, 20);
+        text-indent: 10px;
+    }
+    .hi {
+    background-color: green;
+    width: 60%;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+    }
+    .noidung {
+        text-indent: 100px;
+    }
+    .Hours h2 {
+        background-color: rgb(23, 160, 23);
+        width: 30%;
+    }
+    .Direc h2 {
+        background-color: rgb(23, 160, 23);
+        width: 30%;
+    }
+
+    .anh {
+        float: right;
+        margin-right: 200px;
+    }
+    .footer{
+        border-top: 1px solid green;
+        text-align: center;
+    }

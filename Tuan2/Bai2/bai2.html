@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            box-sizing: border-box;
+            margin: 1px;
+        }
+        .header1 {
+            width: 100%;
+            height: 15%;
+            background-image: url(../Bai2/image/background.png);
+            display: flex;
+            align-items: center;
+           
+        }
+        
+        .logo {
+            margin-right: 100px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 140px;
+        }
+        .title h2 {
+            color: white;
+            margin-bottom: 50px;
+            font-size: 30px;
+            margin: 0;
+
+        }
+        .title p {
+            color: white;
+            font-size: 19px;
+        }
+        .menu {
+            width: 100%;
+            height: auto;
+            background-color: #B2AEAB;
+
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: 1px;
+        }
+        nav ul li {
+            margin: 0px 20px;
+            color: white;
+        }
+        .wrapper .i1 .anh1 img {
+            background-size: contain;
+            width: auto;
+            height: auto;
+        }
+        .wrapper .content {
+            display: flex;
+            margin: 10px;
+        }
+        .i1 {
+
+            margin-bottom: 20px;
+
+        }
+        .nd2 {
+            color: gray;
+        }
+
+        .nd4 {
+            color: palevioletred;
+            margin-bottom: 20px;
+
+        }
+
+        .doan1 {
+            color: gray;
+            font-size: 18px;
+        }
+        .ndu2 {
+            color: gray;
+        }
+
+        .ndu4 {
+            color: palevioletred;
+        }
+
+        .doan2 {
+            color: gray;
+            font-size: 18px;
+        }.image {
+            display: flexbox;
+
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .cangiua {
+            flex: 1;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .noidung1{
+        margin-bottom: 80px;
+        margin-top: 0px;
+        }
+
+        .noidung2 {
+            margin-bottom: 10px;
+            margin-top: 80px;
+        }
+        .noidung1 h3
+        .noidung2 h3 {
+            color: rgb(214, 76, 122);
+            font-size: 18px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
+
+        .noidung1 p
+        .noidung2 p {
+            color: gray;
+            font-size: 16px;
+        }
+        .benphai {
+            width: 250px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .benphai h2 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+
+        }
+
+        .benphai p {
+
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+        
+        .n1 {
+            border-top: 1px solid palevioletred;
+            padding-top: 20px;
+           
+        }
+        .n2{
+         border-top: 1px solid palevioletred;
+            padding-top: 20px;
+        }
+         .n3{
+         border-top: 1px solid palevioletred;
+            padding-top: 20px;
+        }
+         
+        .wrapper header {
+            display: flex;
+            background: url(background.png);
+            align-items: left;
+            flex-wrap: wrap;
+            margin-bottom: 0px;
+        }
+
+        .noidung1
+        .noidung2 {
+            margin-bottom: 20px;
+        }
+
+        footer {
+
+            padding: 10px;
+            background-image: url(background.png);
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header1">
+                <div class="logo">
+                    <img src="../Bai2/image/logo.png" alt="" srcset="">
+                </div>
+                <div class="title">
+                    <h2>YOKO'S KITCHEN</h2>
+                    <p>JAPANESE COOKING CLASSES</p>
+                </div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li style="color: black;">home</li>
+                    <li>classes</li>
+                    <li>catering</li>
+                    <li>about</li>
+                    <li>contact</li>
+                </ul>
+            </nav>        
+        </header>
+        <div class="content">
+            <div class="image">
+                <div class="i1">
+                    <img src="../Bai2/image/teriyaki.jpg" alt="" srcset="">
+                    <p>Bok Choi</p>
+                </div>
+                <div class="i1">
+                    <img src="../Bai2/image/teriyaki.jpg" alt="" >
+                    <p>Teriyaki sauce</p>
+                </div>
+            </div>
+            <div class="cangiua">
+                <div class="noidung1">
+                    <h2 class="nd2">Japanese Vegetarian</h2><h3 class="nd4">Five week course in London</h3>
+                    <p class="doan1">A five week introduction to traditional <br> Japanese vegetarian meals,
+                        teaching you a <br> selection of rice and noodle dishes.
+                    </p>
+                </div>
+                <div class="noidung2">
+                    <h2 class="ndu2">Sauces Masterclass</h2>
+                    <h3 class="ndu4">One day workshop</h3>
+                    <p class="doan2">An intensive one-day course looking at how <br> to create the most delicious sauces
+                        for use
+                        in <br> a range of Japanese cookery.
+                    </p>
+                </div>
+            </div>
+            <div class="benphai">
+                <div class="noidung1">
+                    <h2 style="color: palevioletred">Popular Recipies</h2>
+                    <p class="n4" style="color: palevioletred;">Yakitori (grilled chicken) </p>
+                    <p class="n3" style="color: palevioletred;">Tsukune (minced chicken patties)</p>
+                    <p class="n2" style="color: palevioletred;">Okonomiyaki (savory pancakes)</p>
+                    <p class="n1" style="color: palevioletred;">Mizutaki (chicken stew)</p>
+                </div>
+                <div class="noidungbenphai2">
+                    <h2 style="color: palevioletred">Contact</h2>
+                    <p style="color: gray">Yoko's Kitchen</p>
+                    <p style="color: gray;">27 Redchurch Street</p>
+                    <p style="color: gray">Shoreditch</p>
+                    <p style="color: gray">London E2 7DP</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            2011 Yoko's Kitchen
+        </footer>
+    </div>
+</body>
+</html>
